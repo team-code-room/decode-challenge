@@ -94,12 +94,17 @@ const App = () => {
           </ul>
         </div>
       </Section>
-      
-      <Section title="지금 바로 참여하세요!" emoji="👥" className="bg-blue-600 text-white text-center">
-        <button className="bg-white text-blue-600 font-bold py-3 px-8 rounded-full text-lg hover:bg-blue-100 transition duration-300">
-          디코드 챌린지 신청하기
-        </button>
-      </Section>
+
+        <Section title="지금 바로 참여하세요!" emoji="👥" className="bg-blue-600 text-white text-center">
+            <a
+                href="https://forms.gle/Qmf6i7oV5Pyx6vsK9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-white text-blue-600 font-bold py-3 px-8 rounded-full text-lg hover:bg-blue-100 transition duration-300"
+            >
+                디코드 챌린지 신청하기
+            </a>
+        </Section>
       
       <footer className="bg-gray-800 text-white py-8 text-center">
         <p>&copy; 2024 디코드 챌린지. All rights reserved.</p>
